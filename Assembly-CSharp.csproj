@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C91849E4-3D95-D3E1-78E7-A3364DD0D8B4}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_3;UNITY_4_6;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Elementals\Scripts\OrbitCamera.cs" />
+     <Compile Include="Assets\Elementals\Scripts\TestParticles.cs" />
+     <Compile Include="Assets\Heureka\HeurekaShared\Extensions.cs" />
+     <Compile Include="Assets\Heureka\HeurekaShared\Singleton.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_Translate.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\UI\CFX_Demo_GTButton.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\UI\CFX_Demo_GTToggle.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutodestructWhenNoChildren.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_InspectorHelp.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\Scripts\AIBase.cs" />
+     <Compile Include="Assets\Scripts\ExitTriggerScript.cs" />
+     <Compile Include="Assets\Scripts\FSMBrain.cs" />
+     <Compile Include="Assets\Scripts\FarmhouseScript.cs" />
+     <Compile Include="Assets\Scripts\GameDataScript.cs" />
+     <Compile Include="Assets\Scripts\GameSetUpScript.cs" />
+     <Compile Include="Assets\Scripts\HighScoreScript.cs" />
+     <Compile Include="Assets\Scripts\InterfaceScript.cs" />
+     <Compile Include="Assets\Scripts\Jeep Scripts\JeepSteerScript.cs" />
+     <Compile Include="Assets\Scripts\Predator Scripts\FangsScript.cs" />
+     <Compile Include="Assets\Scripts\Predator Scripts\HuntSensorScript.cs" />
+     <Compile Include="Assets\Scripts\Predator Scripts\PredatorHuntScript.cs" />
+     <Compile Include="Assets\Scripts\Predator Scripts\PredatorWanderScript.cs" />
+     <Compile Include="Assets\Scripts\Prey Scripts\PreySensorScript.cs" />
+     <Compile Include="Assets\Scripts\Prey Scripts\SheepColorScript.cs" />
+     <Compile Include="Assets\Scripts\Prey Scripts\ZebraFleeState.cs" />
+     <Compile Include="Assets\Scripts\Prey Scripts\ZebraHerdedAI.cs" />
+     <Compile Include="Assets\Scripts\Prey Scripts\ZebraIdleAI.cs" />
+     <Compile Include="Assets\Scripts\SheepKillerScript.cs" />
+     <Compile Include="Assets\Scripts\bloodScript.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Algebraics\Either.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Algebraics\Option.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Algebraics\Tuple.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Algebraics\Unit.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Collections\Comparer.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Collections\CreateWithComparer.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Collections\EqualityComparer.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Collections\FuncEnumerable.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Collections\ICollectionExtensions.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Collections\IDictionaryExtensions.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Collections\IListExtensions.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Collections\IListStepper.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Collections\InspectorKeyValuePair.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Collections\LinkedListStepper.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Compare\Comparers\EnumComparers.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Compare\Comparers\KeyValuePairComparers.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Compare\Configuration.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Compare\Events.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Compare\Examples\ExampleConfiguration.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Compare\Factory.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Compare\Finder.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Compare\Utilities\LogUnregisteredOnDestroy.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Comparisons\Comparisons.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Comparisons\FuncComparer.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Comparisons\FuncEqualityComparer.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Comparisons\IComparableComparer.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Comparisons\IEquatableEqualityComparer.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Delegates\DelegateExtensions.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Delegates\Delegates.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Delegates\Tupled.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Dispose\Disposable.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Dispose\DisposalQueue.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Dispose\SmoothDisposer.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Events\GenericEvents.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Platform\BasePlatform.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Platform\Runtime.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Pools\KeyedPool.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Pools\KeyedPoolWithDefaultKey.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Pools\Pool.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Pools\PoolWithInitializer.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Pools\SystemPools.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Collections\Grouping.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Collections\Linked.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Collections\Lookup.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\ChainedOrPooled\AggregateContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\ChainedOrPooled\ConcatContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\ChainedOrPooled\EitherContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\ChainedOrPooled\FlattenContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\ChainedOrPooled\GroupByContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\ChainedOrPooled\GroupJoinContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\ChainedOrPooled\HashSetContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\ChainedOrPooled\IntContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\ChainedOrPooled\JoinContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\ChainedOrPooled\LinkedContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\ChainedOrPooled\PredicateContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\ChainedOrPooled\SelectContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\ChainedOrPooled\SelectOptionContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\ChainedOrPooled\SelectSlinqContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\ChainedOrPooled\ZipAllContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\ChainedOrPooled\ZipContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\Mutation\BacktrackDetector.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\Mutation\BacktrackException.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\Mutation\Mutator.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\Simple\FuncContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\Simple\FuncOptionContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\Simple\IEnumerableContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\Simple\IListContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\Simple\LinkedListContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Context\Simple\OptionContext.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Slinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Slinqable.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\DistinctLinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\DistinctSlinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\ExceptLinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\ExceptSlinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\GroupByLinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\GroupBySlinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\GroupJoinLinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\GroupJoinSlinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\IntersectLinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\IntersectSlinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\JoinLinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\JoinSlinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\OrderByLinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\OrderBySlinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\SlinqTest.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\UnionLinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\UnionSlinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\WhereTakeSelectAggregateLinq.cs" />
+     <Compile Include="Assets\Smooth\Foundations\Slinq\Test\WhereTakeSelectAggregateSlinq.cs" />
+     <None Include="Assets\Heureka\AssetHunter\Readme.txt" />
+     <None Include="Assets\uIntelliSense\Editor\Resources\additional-docs-data.xml" />
+     <None Include="Assets\uIntelliSense\LICENSE.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{269F5B82-6A1C-0EE3-E63A-6167FF12414E}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
